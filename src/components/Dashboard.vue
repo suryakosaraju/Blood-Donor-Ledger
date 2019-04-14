@@ -52,10 +52,15 @@
 
         </form>
 <br> </div>
-      <table>
-<img style="width: 100px; height: 100px;" src="./img/blood-donate.png">
 
+
+      <table>
+
+<div ><img style="width: 70px; height: 70px; text-align: center;" src="./img/blood-donate.png">
+<p style="font-family: Courier; font-size: 15pt; color: white">Blood Donors</p>
+</div>
         <tr>
+
         <th>First Name</th>
         <th>Middle Name</th>
         <th>Last Name</th>
