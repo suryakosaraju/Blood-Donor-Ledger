@@ -10,7 +10,7 @@
 </template>
 
 <script>
-
+//
 import Landing from './components/Landing.vue'
 import Dashboard from './components/Dashboard.vue'
 

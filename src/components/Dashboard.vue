@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h1 class="page-header">Blood Donation Record System
+         <img style="width:50px; height: 50px" src="./img/blood.png"> <h1 class="page-header">Blood Donation Record System 
+
             <img :src="user.avatarUrl() ? user.avatarUrl() : '/avatar-placeholder.png'" class="avatar">
             <small><span class="sign-out">(<a href="#" @click.prevent="signOut">Sign Out</a>)</span></small>
           </h1>
@@ -52,6 +53,8 @@
         </form>
 <br> </div>
       <table>
+<img style="width: 100px; height: 100px;" src="./img/blood-donate.png">
+
         <tr>
         <th>First Name</th>
         <th>Middle Name</th>
@@ -84,6 +87,7 @@
                 <label>
                   <p type="text">{{ donorfn.text }}</p>
                 </label>
+                <!--- Below snippet allows us to delete records if used correctly-->
               <!--  <a @click.prevent="donorfname.splice(donorfname.indexOf(donorfn), 1)"
                 class="delete pull-right"
                 href="#">X</a>-->
@@ -564,19 +568,25 @@ input::placeholder {
   color: grey;
 }
 table {
-  font-family: arial, sans-serif;
+  font-family: Courier, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: black;
+
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td {
+  border: 1px solid grey;
   text-align: left;
-  padding: 8px;
+}
+th{
+    border: 3px solid grey;
+
+  text-align: center;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #f2eeea;
 }
 
 </style>
