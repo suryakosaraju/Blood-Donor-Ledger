@@ -1,6 +1,6 @@
-# Blockstack Todo App
+# Blood Donor Ledger on Blockstack Decentralised Network
 
-> A simple Vue.js Todo app built for the decentralized web.
+An decentralised application(DApp) that allows hospitals to store blood donations in a ledger which is immutable. The DApp is backed by Blockstack, which is fullstack decentralised computing network which allows for the hospitals to safely store the data without worry of notorious manipulations of data and the sale of blood illegally.
 
 ## Build Setup
 
@@ -11,16 +11,3 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-```
-
-For detailed explanation on how this app works, checkout the [guide](https://blockstack.org/tutorials/todo-list/).
-
-
-
